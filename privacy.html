@@ -18,15 +18,17 @@
   </header>
 
   <main class="policy">
-    <p class="policy-meta">Effective date: June 11, 2026 · Last updated: June 11, 2026</p>
+    <p class="policy-meta">Effective date: June 11, 2026 · Last updated: June 17, 2026</p>
 
     <p>
       This Privacy Policy describes how Baby Buddy (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) handles
       information when you use the Baby Buddy mobile application for Android (the &quot;Application&quot;).
     </p>
     <p>
-      Baby Buddy is a guide to baby-friendly places. Most data stays on your device. If you choose
-      to sign in, your feature reviews and saved places may sync through our cloud provider (Supabase).
+      Baby Buddy is a guide to baby-friendly places. Most data stays on your device. To show
+      community-confirmed features, the app fetches anonymous, aggregated review data from our cloud
+      provider (Supabase) when you view places &mdash; this happens even if you do not sign in. If you
+      sign in, your own feature reviews and saved places also sync to Supabase under your account.
     </p>
     <p>By using the Application, you agree to this Privacy Policy.</p>
 
@@ -39,6 +41,13 @@
       <li>Filter preferences such as search distance (stored on device only, not on our servers)</li>
       <li>Cached Google place details (ratings, photos, addresses) when you view places</li>
     </ul>
+
+    <h3>Community data (cloud — even without an account)</h3>
+    <p>
+      When you view places, the app sends place identifiers to Supabase to load anonymous, aggregated
+      baby-friendly feature reports from other users. This does not require an account and does not
+      include your personal information.
+    </p>
 
     <h3>When you sign in (cloud)</h3>
     <p>If you create an account with email/password or Google Sign-In:</p>
@@ -69,13 +78,14 @@
       <li><strong>Google Maps / Places</strong> — maps, search, and place details.
         <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a></li>
       <li><strong>Google Sign-In</strong> — optional authentication</li>
-      <li><strong>Supabase</strong> — optional account and review sync</li>
+      <li><strong>Supabase</strong> — hosts community feature data (read when you view places), and,
+        when you sign in, your account, reviews, and saved places</li>
       <li><strong>Open data</strong> — bundled change-table maps (Vancouver Change Tables, NappyMap)</li>
     </ul>
 
     <h2>4. Your choices</h2>
     <ul>
-      <li>Use the app without signing in (local-only mode)</li>
+      <li>Use the app without creating an account or signing in (your own data stays on your device; only anonymous community data is fetched)</li>
       <li>Edit or delete local profile data in the app</li>
       <li>Sign out or delete your account in Profile → Edit</li>
       <li>Revoke location permission in Android settings</li>

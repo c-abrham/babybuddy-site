@@ -1,4 +1,4 @@
-# Baby Buddy website
+# Baby Go website
 
 Static site for Google Play Console (developer website + privacy policy URL).
 
@@ -16,17 +16,17 @@ Static site for Google Play Console (developer website + privacy policy URL).
 1. Push this `website/` folder to a GitHub repository.
 2. On GitHub: **Settings → Pages → Build from branch**.
 3. Set folder to `/website` on `main` (or move files to `/docs` and use `/docs`).
-4. Your URL will be like `https://YOUR_USERNAME.github.io/babybuddy/` (or repo name).
+4. Your URL will be like `https://c-abrham.github.io/babygo-site/` (repo name: `babygo-site`).
 
 Use that URL in Play Console. Privacy policy URL: add `/privacy.html`. Delete account URL: add `/delete-account.html`.
 
 ## Option B — Google Sites (free, no GitHub)
 
 1. Go to [sites.google.com](https://sites.google.com) → **Blank** site.
-2. Title: **Baby Buddy**.
+2. Title: **Baby Go**.
 3. Copy text from `index.html` into the home page (open the file in a browser to preview).
 4. Add a second page **Privacy policy** — copy from `privacy.html`.
-5. **Publish** → copy the published URL (e.g. `https://sites.google.com/view/baby-buddy-app`).
+5. **Publish** → copy the published URL (e.g. `https://sites.google.com/view/babygo-app`).
 
 Play Console:
 

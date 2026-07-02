@@ -8,6 +8,7 @@ Static site for Google Play Console (developer website + privacy policy URL).
 |------|---------|
 | `index.html` | Home / about page |
 | `privacy.html` | Privacy policy (Play Store requires a public URL) |
+| `delete-account.html` | Account deletion instructions (Play Store Data safety) |
 | `styles.css` | Shared styling |
 
 ## Option A — GitHub Pages (free, gives you a real URL)
@@ -17,7 +18,7 @@ Static site for Google Play Console (developer website + privacy policy URL).
 3. Set folder to `/website` on `main` (or move files to `/docs` and use `/docs`).
 4. Your URL will be like `https://YOUR_USERNAME.github.io/babybuddy/` (or repo name).
 
-Use that URL in Play Console. Privacy policy URL: add `/privacy.html`.
+Use that URL in Play Console. Privacy policy URL: add `/privacy.html`. Delete account URL: add `/delete-account.html`.
 
 ## Option B — Google Sites (free, no GitHub)
 
